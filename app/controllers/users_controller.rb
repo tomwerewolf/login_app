@@ -16,7 +16,7 @@ class UsersController < ApplicationController
         render :new
       end
     end
-  
+  dsafasdfdsfgds
     private
     def user_params
       params.require(:user).permit :name, :password, :password_confirmation
